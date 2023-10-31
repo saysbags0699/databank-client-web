@@ -6,7 +6,7 @@ export default function UserPopButton() {
       };
   return (
     <div className="min-h-screen flex items-center justify-center">
-    <PopButton text="Tombol Pop" onClick={handleButtonClick} />
+    <button text="Tombol Pop" onClick={handleButtonClick} />
   </div>
   )
 }
