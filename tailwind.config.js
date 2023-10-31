@@ -6,6 +6,13 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+
+    fontFamily:{
+      //tolong buatkan font family tailwind untuk fonts monsterrat
+      'poppins': ['Poppins', 'sans-serif'],
+      'montserrat': ['Montserrat', 'sans-serif'],
+    },
+
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -14,5 +21,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
